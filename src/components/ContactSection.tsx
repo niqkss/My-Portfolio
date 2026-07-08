@@ -30,10 +30,10 @@ export function ContactSection() {
         
         {/* Column 1: Call to action */}
         <div className="space-y-6 relative">
-          <h4 className="text-sm font-bold tracking-widest text-purple-400 uppercase">Let's Work Together</h4>
+          <h4 className="text-sm font-bold tracking-widest text-purple-400 uppercase">Let&apos;s Work Together</h4>
           <h2 className="text-4xl font-black text-white">Have a project in mind?</h2>
           <p className="text-gray-400 leading-relaxed">
-            I'm always open to discussing new projects and opportunities. Let's create something amazing together!
+            I&apos;m always open to discussing new projects and opportunities. Let&apos;s create something amazing together!
           </p>
           <div className="relative inline-block">
             <button onClick={handleContactClick} className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white rounded-xl font-bold flex items-center gap-2 transition shadow-lg shadow-blue-500/25">

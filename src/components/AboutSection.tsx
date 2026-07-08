@@ -1,4 +1,4 @@
-import { BookOpen, Code, Cpu, CalendarDays, User } from "lucide-react";
+import { BookOpen, Code, Cpu, CalendarDays } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -12,12 +12,12 @@ export function AboutSection() {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
-            I'm passionate about creating digital solutions
+            I&apos;m passionate about creating digital solutions
           </h2>
           
           <div className="space-y-4 text-gray-400 leading-relaxed text-lg pt-4">
             <p>
-              With a CGPA of 3.69, I'm an innovative final-year Software Engineering student with strong technical skills in full-stack development, system architecture, and AI integration.
+              With a CGPA of 3.69, I&apos;m an innovative final-year Software Engineering student with strong technical skills in full-stack development, system architecture, and AI integration.
             </p>
             <p>
               I help businesses and individuals bring their ideas to life through clean, efficient, and user-friendly code. From managing complex databases to integrating real-world IoT hardware like the ReflectaAI Smart Mirror, I thrive on solving complex problems.

@@ -36,7 +36,7 @@ export function HeroSection() {
         <div className="space-y-8 flex flex-col items-start z-20">
           <div className="inline-flex items-center space-x-2 px-3 py-1.5 bg-glass-light rounded-full border border-glass-border">
              <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
-             <span className="text-xs font-bold tracking-widest text-purple-300 uppercase">I'm a Software Engineer</span>
+             <span className="text-xs font-bold tracking-widest text-purple-300 uppercase">I&apos;m a Software Engineer</span>
           </div>
 
           <div className="space-y-4">
@@ -49,7 +49,7 @@ export function HeroSection() {
           </div>
 
           <p className="text-lg text-gray-400 leading-relaxed max-w-xl">
-            I'm a passionate Software Engineering student specializing in building exceptional digital experiences with modern technologies, AI integrations, and robust system architectures.
+            I&apos;m a passionate Software Engineering student specializing in building exceptional digital experiences with modern technologies, AI integrations, and robust system architectures.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
@@ -108,6 +108,7 @@ export function HeroSection() {
                  <div className="w-3 h-3 rounded-full bg-green-500" />
                  <span className="ml-2 text-xs font-mono text-gray-500">developer.ts</span>
               </div>
+              {/* eslint-disable react/no-unescaped-entities */}
               <pre className="text-sm font-mono leading-relaxed">
                 <span className="text-purple-400">const</span> <span className="text-blue-300">developer</span> <span className="text-white">=</span> <span className="text-yellow-300">{"{"}</span>{"\n"}
                 <span className="text-gray-400">  name:</span> <span className="text-green-300">"Aniq Aiman"</span>,<span className="text-white">{"\n"}</span>
