@@ -21,3 +21,28 @@ body {
     @apply bg-glass-dark border border-glass-border backdrop-blur-md rounded-2xl shadow-xl;
   }
 }
+
+.btn-lantern {
+  position: relative;
+  display: inline-flex;
+}
+
+.btn-lantern::after {
+  content: "";
+  position: absolute;
+  top: var(--y, 50%);
+  left: var(--x, 50%);
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle closest-side, rgba(255, 230, 100, 0.6), transparent);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 20;
+  mix-blend-mode: overlay;
+}
+
+.btn-lantern:hover::after {
+  opacity: 1;
+}

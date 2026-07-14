@@ -1,8 +1,9 @@
 import { BookOpen, Code, Cpu, CalendarDays } from "lucide-react";
+import { CertificateButton } from "./CertificateButton";
 
 export function AboutSection() {
   return (
-    <section className="container mx-auto px-4 py-24 relative z-10" id="about">
+    <section className="container mx-auto px-4 pt-24 pb-8 relative z-10" id="about">
       <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
         
         {/* Left Side: About Text */}
@@ -76,6 +77,11 @@ export function AboutSection() {
 
         </div>
 
+      </div>
+
+      {/* Certificate Button */}
+      <div className="mt-16 flex justify-center w-full relative z-10">
+        <CertificateButton />
       </div>
     </section>
   );
