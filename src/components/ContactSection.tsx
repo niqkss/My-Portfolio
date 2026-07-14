@@ -53,7 +53,7 @@ export function ContactSection() {
           </p>
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
-               <UserCircle size={32} className="text-gray-400" />
+               <img src="/gambar madam.png" alt="Ts Roziyani binti Setik" className="w-full h-full object-cover" />
             </div>
             <div>
               <h4 className="text-white font-bold">Ts Roziyani binti Setik</h4>
