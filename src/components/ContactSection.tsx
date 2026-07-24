@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { ArrowUpRight, Mail, Phone, Quote, UserCircle } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, Quote } from "lucide-react";
 import { useState } from "react";
 
 export function ContactSection() {
